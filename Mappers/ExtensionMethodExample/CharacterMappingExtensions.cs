@@ -5,7 +5,7 @@ namespace GameObjectMapper.Mappers.ExtensionMethodExemple;
 
 
 
-public static class MapperExtensions
+public static class CharacterMappingExtensions
 {
     public static CharacterDTO ToDTO(this Character character)
     {

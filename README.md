@@ -35,7 +35,7 @@ GameObjectMapper
 │   ├── ExplicitOperatorExemple
 │   │   └── Character.cs
 │   ├── ExtensionMethodExemple
-│   │   └── Character.cs
+│   │   └── CharacterMappingExtensions.cs
 │   ├── ImplicitOperatorExemple
 │   │   └── Character.cs
 │   └── MapsterExample

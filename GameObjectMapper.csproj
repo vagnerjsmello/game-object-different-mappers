@@ -8,11 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AutoMapperExample\" />
-    <Folder Include="MapsterExample\" />
-    <Folder Include="ExplicitOperatorExample\" />
-    <Folder Include="ImplicitOperatorExample\" />
-    <Folder Include="ExtensionMethodExample\" />
+    <Compile Remove="AutoMapperExample\**" />
+    <Compile Remove="ExplicitOperatorExample\**" />
+    <Compile Remove="ExtensionMethodExample\**" />
+    <Compile Remove="ImplicitOperatorExample\**" />
+    <Compile Remove="MapsterExample\**" />
+    <EmbeddedResource Remove="AutoMapperExample\**" />
+    <EmbeddedResource Remove="ExplicitOperatorExample\**" />
+    <EmbeddedResource Remove="ExtensionMethodExample\**" />
+    <EmbeddedResource Remove="ImplicitOperatorExample\**" />
+    <EmbeddedResource Remove="MapsterExample\**" />
+    <None Remove="AutoMapperExample\**" />
+    <None Remove="ExplicitOperatorExample\**" />
+    <None Remove="ExtensionMethodExample\**" />
+    <None Remove="ImplicitOperatorExample\**" />
+    <None Remove="MapsterExample\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameObjectMapper", "GameObjectMapper.csproj", "{8AA49B9C-9B3B-47EE-898E-9DE8204385F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA49B9C-9B3B-47EE-898E-9DE8204385F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA49B9C-9B3B-47EE-898E-9DE8204385F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA49B9C-9B3B-47EE-898E-9DE8204385F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA49B9C-9B3B-47EE-898E-9DE8204385F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68BF3311-0437-4CFC-B56D-781B54D257E1}
+	EndGlobalSection
+EndGlobal
